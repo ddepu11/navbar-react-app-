@@ -13,7 +13,7 @@ function App() {
 
     if (outerRef.current.getBoundingClientRect().height === 0) {
       outerRef.current.style.height = `${innerHeight}px`;
-      socialLinkref.current.style.height = `auto`;
+      socialLinkref.current.style.height = `65px`;
     } else {
       outerRef.current.style.height = `0px`;
       socialLinkref.current.style.height = `0px`;
